@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BD1AE21A79A48F00E492D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD1AE11A79A48F00E492D7 /* main.m */; };
+		27BD1AE51A79A48F00E492D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD1AE41A79A48F00E492D7 /* AppDelegate.m */; };
+		27BD1AE81A79A48F00E492D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD1AE71A79A48F00E492D7 /* ViewController.m */; };
+		27BD1AEB1A79A48F00E492D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BD1AE91A79A48F00E492D7 /* Main.storyboard */; };
+		27BD1AED1A79A48F00E492D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BD1AEC1A79A48F00E492D7 /* Images.xcassets */; };
+		27BD1AF01A79A48F00E492D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BD1AEE1A79A48F00E492D7 /* LaunchScreen.xib */; };
+		27BD1B071A79A87100E492D7 /* NRCMercuryMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD1B061A79A87100E492D7 /* NRCMercuryMeter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27BD1ADC1A79A48F00E492D7 /* MercuryMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercuryMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BD1AE01A79A48F00E492D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BD1AE11A79A48F00E492D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27BD1AE31A79A48F00E492D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27BD1AE41A79A48F00E492D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27BD1AE61A79A48F00E492D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27BD1AE71A79A48F00E492D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27BD1AEA1A79A48F00E492D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BD1AEC1A79A48F00E492D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27BD1AEF1A79A48F00E492D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		27BD1B051A79A87100E492D7 /* NRCMercuryMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRCMercuryMeter.h; sourceTree = "<group>"; };
+		27BD1B061A79A87100E492D7 /* NRCMercuryMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRCMercuryMeter.m; sourceTree = "<group>"; };
+		27BD1B6C1A7A332B00E492D7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		27BD1B6D1A7A332B00E492D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BD1AD91A79A48F00E492D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BD1AD31A79A48F00E492D7 = {
+			isa = PBXGroup;
+			children = (
+				27BD1AEC1A79A48F00E492D7 /* Images.xcassets */,
+				27BD1AE01A79A48F00E492D7 /* Info.plist */,
+				27BD1B6C1A7A332B00E492D7 /* LICENSE */,
+				27BD1B6D1A7A332B00E492D7 /* README.md */,
+				27BD1ADE1A79A48F00E492D7 /* Source */,
+				27BD1ADD1A79A48F00E492D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BD1ADD1A79A48F00E492D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BD1ADC1A79A48F00E492D7 /* MercuryMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BD1ADE1A79A48F00E492D7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				27BD1AE31A79A48F00E492D7 /* AppDelegate.h */,
+				27BD1AE41A79A48F00E492D7 /* AppDelegate.m */,
+				27BD1AEE1A79A48F00E492D7 /* LaunchScreen.xib */,
+				27BD1AE11A79A48F00E492D7 /* main.m */,
+				27BD1AE91A79A48F00E492D7 /* Main.storyboard */,
+				27BD1B051A79A87100E492D7 /* NRCMercuryMeter.h */,
+				27BD1B061A79A87100E492D7 /* NRCMercuryMeter.m */,
+				27BD1AE61A79A48F00E492D7 /* ViewController.h */,
+				27BD1AE71A79A48F00E492D7 /* ViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BD1ADB1A79A48F00E492D7 /* MercuryMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BD1AFF1A79A48F00E492D7 /* Build configuration list for PBXNativeTarget "MercuryMeter" */;
+			buildPhases = (
+				27BD1AD81A79A48F00E492D7 /* Sources */,
+				27BD1AD91A79A48F00E492D7 /* Frameworks */,
+				27BD1ADA1A79A48F00E492D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MercuryMeter;
+			productName = MercuryMeter;
+			productReference = 27BD1ADC1A79A48F00E492D7 /* MercuryMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BD1AD41A79A48F00E492D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nathan Corvino";
+				TargetAttributes = {
+					27BD1ADB1A79A48F00E492D7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 27BD1AD71A79A48F00E492D7 /* Build configuration list for PBXProject "MercuryMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BD1AD31A79A48F00E492D7;
+			productRefGroup = 27BD1ADD1A79A48F00E492D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BD1ADB1A79A48F00E492D7 /* MercuryMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BD1ADA1A79A48F00E492D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BD1AEB1A79A48F00E492D7 /* Main.storyboard in Resources */,
+				27BD1AF01A79A48F00E492D7 /* LaunchScreen.xib in Resources */,
+				27BD1AED1A79A48F00E492D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BD1AD81A79A48F00E492D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BD1AE81A79A48F00E492D7 /* ViewController.m in Sources */,
+				27BD1AE51A79A48F00E492D7 /* AppDelegate.m in Sources */,
+				27BD1AE21A79A48F00E492D7 /* main.m in Sources */,
+				27BD1B071A79A87100E492D7 /* NRCMercuryMeter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27BD1AE91A79A48F00E492D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BD1AEA1A79A48F00E492D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27BD1AEE1A79A48F00E492D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BD1AEF1A79A48F00E492D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BD1AFD1A79A48F00E492D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BD1AFE1A79A48F00E492D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BD1B001A79A48F00E492D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27BD1B011A79A48F00E492D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BD1AD71A79A48F00E492D7 /* Build configuration list for PBXProject "MercuryMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BD1AFD1A79A48F00E492D7 /* Debug */,
+				27BD1AFE1A79A48F00E492D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BD1AFF1A79A48F00E492D7 /* Build configuration list for PBXNativeTarget "MercuryMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BD1B001A79A48F00E492D7 /* Debug */,
+				27BD1B011A79A48F00E492D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BD1AD41A79A48F00E492D7 /* Project object */;
+}
