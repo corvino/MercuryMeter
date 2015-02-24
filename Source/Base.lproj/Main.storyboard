@@ -16,14 +16,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFM-m1-hnJ">
+                                <rect key="frame" x="165" y="64" width="271" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmq-ys-796">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="30"/>
+                                        <state key="normal" title="Shrink">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="shrinkPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m3U-Lf-gu5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJu-fd-uzQ">
+                                        <rect key="frame" x="119" y="0.0" width="40" height="30"/>
+                                        <state key="normal" title="Reset">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q43-WY-Wf1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1R-m1-kZs">
+                                        <rect key="frame" x="234" y="0.0" width="37" height="30"/>
+                                        <state key="normal" title="Grow">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="growPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LgU-jA-AnC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="P1R-m1-kZs" firstAttribute="leading" secondItem="BJu-fd-uzQ" secondAttribute="trailing" constant="75" id="0Or-sF-kPg"/>
+                                    <constraint firstItem="kmq-ys-796" firstAttribute="centerY" secondItem="P1R-m1-kZs" secondAttribute="centerY" id="1aX-3m-cld"/>
+                                    <constraint firstItem="BJu-fd-uzQ" firstAttribute="leading" secondItem="kmq-ys-796" secondAttribute="trailing" constant="75" id="78y-0m-b9K"/>
+                                    <constraint firstItem="kmq-ys-796" firstAttribute="top" secondItem="fFM-m1-hnJ" secondAttribute="top" id="7XE-8u-ei0"/>
+                                    <constraint firstAttribute="trailing" secondItem="P1R-m1-kZs" secondAttribute="trailing" id="NBN-ma-Dx9"/>
+                                    <constraint firstAttribute="bottom" secondItem="kmq-ys-796" secondAttribute="bottom" id="RhA-pq-cKH"/>
+                                    <constraint firstAttribute="trailing" secondItem="BJu-fd-uzQ" secondAttribute="trailing" constant="133" id="jeJ-jn-faD"/>
+                                    <constraint firstItem="kmq-ys-796" firstAttribute="centerY" secondItem="BJu-fd-uzQ" secondAttribute="centerY" id="y9V-fA-Ayg"/>
+                                    <constraint firstItem="kmq-ys-796" firstAttribute="leading" secondItem="fFM-m1-hnJ" secondAttribute="leading" id="zkd-a3-7II"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="jeJ-jn-faD"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoh-SI-Aez">
-                                <rect key="frame" x="44" y="253" width="520" height="94"/>
+                                <rect key="frame" x="44" y="251" width="512" height="99"/>
                                 <subviews>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAB-kQ-kQU" customClass="NRCMercuryMeter">
-                                        <rect key="frame" x="0.0" y="74" width="520" height="20"/>
+                                        <rect key="frame" x="0.0" y="74" width="512" height="25"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="5jW-mQ-dqy"/>
+                                            <constraint firstAttribute="height" constant="25" id="5jW-mQ-dqy"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="leftColor">
@@ -38,7 +87,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="j1W-FC-BTg">
-                                        <rect key="frame" x="-2" y="0.0" width="524" height="31"/>
+                                        <rect key="frame" x="-2" y="0.0" width="516" height="31"/>
                                         <connections>
                                             <action selector="updateValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5c-Rg-Ymu"/>
                                             <action selector="updateValue:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Kv8-7k-qgP"/>
@@ -60,13 +109,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="zoh-SI-Aez" secondAttribute="centerX" id="KBG-5w-mEv"/>
-                            <constraint firstAttribute="trailing" secondItem="zoh-SI-Aez" secondAttribute="trailing" constant="36" id="PdA-2M-Qf7"/>
+                            <constraint firstAttribute="trailing" secondItem="zoh-SI-Aez" secondAttribute="trailing" constant="44" id="PdA-2M-Qf7"/>
                             <constraint firstAttribute="centerY" secondItem="zoh-SI-Aez" secondAttribute="centerY" id="jLn-ez-b70"/>
                             <constraint firstItem="zoh-SI-Aez" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="mW0-3F-9eT"/>
+                            <constraint firstItem="fFM-m1-hnJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="pJu-0F-qdE"/>
+                            <constraint firstAttribute="centerX" secondItem="fFM-m1-hnJ" secondAttribute="centerX" id="r5e-RD-gBj"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="growButton" destination="P1R-m1-kZs" id="fRi-1f-hkK"/>
                         <outlet property="mercuryMeter" destination="YAB-kQ-kQU" id="kRd-AG-dxB"/>
+                        <outlet property="mercuryMeterHeight" destination="5jW-mQ-dqy" id="cgU-DT-2gW"/>
+                        <outlet property="meterSliderYAlignment" destination="jLn-ez-b70" id="1DN-3G-rqQ"/>
+                        <outlet property="resetButton" destination="BJu-fd-uzQ" id="aof-3A-Fvp"/>
+                        <outlet property="shrinkButton" destination="kmq-ys-796" id="Vwa-ds-91t"/>
                         <outlet property="slider" destination="j1W-FC-BTg" id="2en-79-Cvm"/>
                     </connections>
                 </viewController>

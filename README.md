@@ -17,3 +17,10 @@ NRCMercuryMeter.m.
 ### Illustration
 
 ![Illustration](./example.png)
+
+### Implementation
+
+There are two sublayers&mdash;rightLayer and leftLayer. rightLayer adds
+the corner radius and maskToBounds, to keep this "private". leftLayer is
+a sublayer of rightLayer, so it picks up the corner rounding; it's size
+is calculated using value.
